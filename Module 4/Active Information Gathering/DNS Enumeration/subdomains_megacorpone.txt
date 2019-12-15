@@ -1,0 +1,16 @@
+155.67.7.50.in-addr.arpa domain name pointer mail.megacorpone.com.
+162.67.7.50.in-addr.arpa domain name pointer www.megacorpone.com.
+163.67.7.50.in-addr.arpa domain name pointer mail2.megacorpone.com.
+164.67.7.50.in-addr.arpa domain name pointer www2.megacorpone.com.
+165.67.7.50.in-addr.arpa domain name pointer beta.megacorpone.com.
+170.67.7.50.in-addr.arpa domain name pointer ns3.megacorpone.com.
+178.67.7.50.in-addr.arpa domain name pointer syslog.megacorpone.com.
+179.67.7.50.in-addr.arpa domain name pointer mgmt.megacorpone.com.
+180.67.7.50.in-addr.arpa domain name pointer siem.megacorpone.com.
+181.67.7.50.in-addr.arpa domain name pointer snmp.megacorpone.com.
+182.67.7.50.in-addr.arpa domain name pointer test.megacorpone.com.
+186.67.7.50.in-addr.arpa domain name pointer ns1.megacorpone.com.
+187.67.7.50.in-addr.arpa domain name pointer admin.megacorpone.com.
+188.67.7.50.in-addr.arpa domain name pointer intranet.megacorpone.com.
+189.67.7.50.in-addr.arpa domain name pointer vpn.megacorpone.com.
+190.67.7.50.in-addr.arpa domain name pointer router.megacorpone.com.
