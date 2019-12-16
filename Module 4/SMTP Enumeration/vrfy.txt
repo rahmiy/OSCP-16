@@ -1,0 +1,35 @@
+('Connecting to ', '10.11.1.22\n')
+220 barry ESMTP Sendmail 8.11.6/8.11.6; Mon, 16 Dec 2019 03:21:47 +0200
+
+250 2.1.5 root <root@barry>
+
+('Connecting to ', '10.11.1.72\n')
+220 beta SMTP Server (JAMES SMTP Server 2.3.2) ready Sun, 15 Dec 2019 20:21:51 -0500 (EST)
+
+502 5.3.3 VRFY is not supported
+
+('Connecting to ', '10.11.1.115\n')
+220 tophat.acme.com ESMTP Sendmail 8.12.8/8.12.8; Mon, 16 Dec 2019 03:21:50 +0200
+
+250 2.1.5 root <root@tophat.acme.com>
+
+('Connecting to ', '10.11.1.128\n')
+220 dj.acme.local Microsoft ESMTP MAIL Service, Version: 5.0.2195.6713 ready at  Mon, 16 Dec 2019 03:22:18 +0200 
+
+252 2.1.5 Cannot VRFY user, but will take message for <root@dj.acme.local>
+
+('Connecting to ', '10.11.1.217\n')
+220 hotline.localdomain ESMTP Postfix
+
+252 2.0.0 root
+
+('Connecting to ', '10.11.1.227\n')
+220 jd.acme.local Microsoft ESMTP MAIL Service, Version: 5.0.2195.5329 ready at  Mon, 16 Dec 2019 03:22:33 +0200 
+
+252 2.1.5 Cannot VRFY user, but will take message for <root@jd.acme.local>
+
+('Connecting to ', '10.11.1.229\n')
+220 MAIL ESMTP
+
+502 Use HELO/EHLO first.
+

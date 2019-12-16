@@ -1,0 +1,207 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-12-15 20:02 EST
+NSE: Loaded 1 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 20:02
+Completed NSE at 20:02, 0.00s elapsed
+Initiating ARP Ping Scan at 20:02
+Scanning 16 hosts [1 port/host]
+Completed ARP Ping Scan at 20:02, 0.19s elapsed (16 total hosts)
+Initiating Parallel DNS resolution of 16 hosts. at 20:02
+Completed Parallel DNS resolution of 16 hosts. at 20:02, 0.00s elapsed
+Initiating SYN Stealth Scan at 20:02
+Scanning 16 hosts [2 ports/host]
+Discovered open port 139/tcp on 10.11.1.22
+Discovered open port 139/tcp on 10.11.1.24
+Discovered open port 139/tcp on 10.11.1.31
+Discovered open port 139/tcp on 10.11.1.73
+Discovered open port 139/tcp on 10.11.1.136
+Discovered open port 139/tcp on 10.11.1.75
+Discovered open port 139/tcp on 10.11.1.145
+Discovered open port 139/tcp on 10.11.1.202
+Discovered open port 139/tcp on 10.11.1.218
+Discovered open port 139/tcp on 10.11.1.220
+Discovered open port 139/tcp on 10.11.1.227
+Discovered open port 139/tcp on 10.11.1.229
+Discovered open port 445/tcp on 10.11.1.24
+Discovered open port 139/tcp on 10.11.1.5
+Discovered open port 445/tcp on 10.11.1.31
+Discovered open port 445/tcp on 10.11.1.73
+Discovered open port 445/tcp on 10.11.1.136
+Discovered open port 445/tcp on 10.11.1.75
+Discovered open port 445/tcp on 10.11.1.145
+Discovered open port 445/tcp on 10.11.1.202
+Discovered open port 445/tcp on 10.11.1.218
+Discovered open port 445/tcp on 10.11.1.220
+Discovered open port 139/tcp on 10.11.1.223
+Discovered open port 445/tcp on 10.11.1.5
+Discovered open port 139/tcp on 10.11.1.230
+Discovered open port 445/tcp on 10.11.1.230
+Discovered open port 445/tcp on 10.11.1.223
+Completed SYN Stealth Scan at 20:02, 1.91s elapsed (32 total ports)
+NSE: Script scanning 16 hosts.
+Initiating NSE at 20:02
+Completed NSE at 20:02, 4.95s elapsed
+Nmap scan report for 10.11.1.22
+Host is up (0.076s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:89:0F:E1 (VMware)
+
+Nmap scan report for 10.11.1.24
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:36:EE (VMware)
+
+Nmap scan report for 10.11.1.5
+Host is up (0.079s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:25:59 (VMware)
+
+Host script results:
+| smb-vuln-ms08-067: 
+|   VULNERABLE:
+|   Microsoft Windows system vulnerable to remote code execution (MS08-067)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2008-4250
+|           The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2,
+|           Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary
+|           code via a crafted RPC request that triggers the overflow during path canonicalization.
+|           
+|     Disclosure date: 2008-10-23
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4250
+|_      https://technet.microsoft.com/en-us/library/security/ms08-067.aspx
+
+Nmap scan report for 10.11.1.31
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:17:75 (VMware)
+
+Nmap scan report for 10.11.1.73
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:93:7F:22 (VMware)
+
+Nmap scan report for 10.11.1.75
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:93:67:80 (VMware)
+
+Nmap scan report for 10.11.1.136
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:93:3C:9A (VMware)
+
+Nmap scan report for 10.11.1.145
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:7E:40 (VMware)
+
+Nmap scan report for 10.11.1.202
+Host is up (0.082s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:69:CE (VMware)
+
+Nmap scan report for 10.11.1.218
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:93:5B:24 (VMware)
+
+Nmap scan report for 10.11.1.220
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:93:5E:E4 (VMware)
+
+Nmap scan report for 10.11.1.221
+Host is up (0.079s latency).
+
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:93:71:8D (VMware)
+
+Nmap scan report for 10.11.1.223
+Host is up (0.079s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:03:D2 (VMware)
+
+Nmap scan report for 10.11.1.229
+Host is up (0.078s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:93:61:81 (VMware)
+
+Host script results:
+| smb-vuln-ms08-067: 
+|   VULNERABLE:
+|   Microsoft Windows system vulnerable to remote code execution (MS08-067)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2008-4250
+|           The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2,
+|           Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary
+|           code via a crafted RPC request that triggers the overflow during path canonicalization.
+|           
+|     Disclosure date: 2008-10-23
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4250
+|_      https://technet.microsoft.com/en-us/library/security/ms08-067.aspx
+
+Nmap scan report for 10.11.1.227
+Host is up (0.079s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:89:1B:3B (VMware)
+
+Nmap scan report for 10.11.1.230
+Host is up (0.098s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:32:45 (VMware)
+
+NSE: Script Post-scanning.
+Initiating NSE at 20:02
+Completed NSE at 20:02, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 16 IP addresses (16 hosts up) scanned in 7.40 seconds
+           Raw packets sent: 52 (2.032KB) | Rcvd: 75 (5.643KB)
