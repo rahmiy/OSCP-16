@@ -1,0 +1,90 @@
+# Nmap 7.70 scan initiated Sun Dec 15 18:43:05 2019 as: nmap -sT -A --top-ports=20 --open -oG top_port_sweep.txt 10.11.1.1-254
+Host: 10.11.1.5 ()	Status: Up
+Host: 10.11.1.5 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows XP microsoft-ds/, 3389/open/tcp//ms-wbt-server?///	Ignored State: closed (16)	OS: Microsoft Windows XP	Seq Index: 140	IP ID Seq: Incremental
+Host: 10.11.1.7 ()	Status: Up
+Host: 10.11.1.7 ()	Ports: 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: filtered (19)	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 21/open/tcp//ftp//vsftpd 2.0.1/, 22/open/tcp//ssh//OpenSSH 3.9p1 (protocol 1.99)/, 80/open/tcp//http//Apache httpd 2.0.52 ((CentOS))/, 111/open/tcp//rpcbind//2 (RPC #100000)/, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: MYGROUP)/, 443/open/tcp//ssl|http//Apache httpd 2.0.52 ((CentOS))/, 445/open/tcp//netbios-ssn//Samba smbd 3.0.33-0.17.el4 (workgroup: MYGROUP)/, 3306/open/tcp//mysql?///	Seq Index: 201	IP ID Seq: All zeros
+Host: 10.11.1.10 ()	Status: Up
+Host: 10.11.1.10 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/	Ignored State: filtered (19)	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.13 ()	Status: Up
+Host: 10.11.1.13 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft IIS httpd 5.1/, 3389/open/tcp//ms-wbt-server?///	Ignored State: filtered (17)	Seq Index: 135	IP ID Seq: Incremental
+Host: 10.11.1.14 ()	Status: Up
+Host: 10.11.1.14 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft IIS httpd 5.1/, 3389/open/tcp//ms-wbt-server?///	Ignored State: filtered (17)	Seq Index: 136	IP ID Seq: Incremental
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 21/open/tcp//ftp?///, 22/open/tcp//ssh//OpenSSH 3.1p1 (protocol 1.99)/, 23/open/tcp//telnet?///, 25/open/tcp//smtp?///, 80/open/tcp//http//Apache httpd 1.3.23 ((Unix)  (Red-Hat|Linux) mod_python|2.7.6 Python|1.5.2 mod_ssl|2.8.7 OpenSSL|0.9.6b DAV|1.0.3 PHP|4.1.2 mod_perl|1.26 mod_throttle|3.1.2)/, 111/open/tcp//rpcbind//2 (RPC #100000)/, 139/open/tcp//netbios-ssn//Samba smbd (workgroup: MYGROUP)/, 443/open/tcp//ssl|https//Apache|1.3.23 (Unix)  (Red-Hat|Linux) mod_python|2.7.6 Python|1.5.2 mod_ssl|2.8./, 995/open/tcp//ssl|pop3s?///	Ignored State: closed (11)
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.6p1 Debian 5build1 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.4 ((Ubuntu) PHP|5.2.3-1ubuntu6)/, 110/open/tcp//pop3//Dovecot pop3d/, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: MSHOME)/, 143/open/tcp//imap//Dovecot imapd/, 445/open/tcp//netbios-ssn//Samba smbd 3.0.26a (workgroup: MSHOME)/, 993/open/tcp//ssl|imap//Dovecot imapd/, 995/open/tcp//ssl|pop3//Dovecot pop3d/	Ignored State: closed (12)	Seq Index: 218	IP ID Seq: All zeros
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows Server 2003 3790 Service Pack 1 microsoft-ds/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: closed (15)	Seq Index: 262	IP ID Seq: Incremental
+Host: 10.11.1.35 ()	Status: Up
+Host: 10.11.1.35 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 443/open/tcp//ssl|http//Apache httpd 2.2.3 ((CentOS))/	Ignored State: filtered (18)	Seq Index: 205	IP ID Seq: All zeros
+Host: 10.11.1.39 ()	Status: Up
+Host: 10.11.1.39 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.6.1 (protocol 2.0)/, 80/open/tcp//http//nginx 1.6.3/, 3306/open/tcp//mysql//MariaDB (unauthorized)/	Ignored State: filtered (17)	Seq Index: 257	IP ID Seq: All zeros
+Host: 10.11.1.44 ()	Status: Up
+Host: 10.11.1.44 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)/	Ignored State: closed (19)	Seq Index: 262	IP ID Seq: All zeros
+Host: 10.11.1.49 ()	Status: Up
+Host: 10.11.1.49 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.5/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/	Ignored State: filtered (17)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 264	IP ID Seq: Incremental
+Host: 10.11.1.50 ()	Status: Up
+Host: 10.11.1.50 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.5/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/	Ignored State: filtered (17)	OS: Microsoft Windows 7	Seq Index: 248	IP ID Seq: Incremental
+Host: 10.11.1.71 ()	Status: Up
+Host: 10.11.1.71 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.6.1p1 Ubuntu 2ubuntu2 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache|2.4.7 (Ubuntu)/	Ignored State: closed (18)	Seq Index: 255	IP ID Seq: All zeros
+Host: 10.11.1.72 ()	Status: Up
+Host: 10.11.1.72 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.8p1 Debian 7ubuntu1 (Ubuntu Linux; protocol 2.0)/, 25/open/tcp//smtp//JAMES smtpd 2.3.2/, 80/open/tcp//http//Apache httpd 2.2.20 ((Ubuntu))/, 110/open/tcp//pop3//JAMES pop3d 2.3.2/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/	Ignored State: closed (15)	Seq Index: 260	IP ID Seq: All zeros
+Host: 10.11.1.73 ()	Status: Up
+Host: 10.11.1.73 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)/, 3306/open/tcp//mysql?///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 5900/open/tcp//vnc//VNC (protocol 3.8)/, 8080/open/tcp//http//Apache httpd 2.4.9 ((Win32) PHP|5.5.12)/	Ignored State: filtered (13)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 263	IP ID Seq: Incremental
+Host: 10.11.1.75 ()	Status: Up
+Host: 10.11.1.75 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: filtered (16)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 21/open/tcp//ftp//vsftpd 1.1.3/, 22/open/tcp//ssh//OpenSSH 3.5p1 (protocol 1.99)/, 25/open/tcp//smtp?///, 80/open/tcp//http//Apache httpd 2.0.40 ((Red Hat Linux))/, 111/open/tcp//rpcbind//2 (RPC #100000)/, 139/open/tcp//netbios-ssn//Samba smbd (workgroup: MYGROUP)/, 143/open/tcp//imap//UW imapd 2001.315rh/, 443/open/tcp//ssl|http//Apache httpd 2.0.40 ((Red Hat Linux))/, 3306/open/tcp//mysql//MySQL (unauthorized)/	Ignored State: closed (11)	OS: Linux 2.4.20	Seq Index: 204	IP ID Seq: All zeros
+Host: 10.11.1.116 ()	Status: Up
+Host: 10.11.1.116 ()	Ports: 21/open/tcp//ftp?///, 22/open/tcp//ssh//OpenSSH 5.8p2_hpn13v11 (FreeBSD 20110503; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((FreeBSD) PHP|5.4.23)/, 110/open/tcp//tcpwrapped///, 143/open/tcp//tcpwrapped///, 3306/open/tcp//mysql//MySQL (unauthorized)/	Ignored State: closed (14)	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.1.125 ()	Status: Up
+Host: 10.11.1.125 ()	Ports: 21/open/tcp//ftp//Acritum Femitter Server ftpd/	Ignored State: filtered (19)	Seq Index: 255	IP ID Seq: Incremental
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd 5.0/, 25/open/tcp//smtp//Microsoft ESMTP 5.0.2195.6713/, 80/open/tcp//http//Microsoft IIS httpd 5.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 443/open/tcp//https?///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/, 5900/open/tcp//vnc//VNC (protocol 3.8)/	Ignored State: closed (12)	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.133 ()	Status: Up
+Host: 10.11.1.133 ()	Ports: 80/open/tcp//http//Microsoft-IIS         /	Seq Index: 204	IP ID Seq: All zeros
+Host: 10.11.1.136 ()	Status: Up
+Host: 10.11.1.136 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.3p2 Debian 9 (protocol 2.0)/, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: LOCAL)/, 445/open/tcp//netbios-ssn//Samba smbd 3.0.24 (workgroup: LOCAL)/	Ignored State: closed (17)	Seq Index: 195	IP ID Seq: All zeros
+Host: 10.11.1.141 ()	Status: Up
+Host: 10.11.1.141 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.0 (protocol 2.0)/, 111/open/tcp//rpcbind//2 (RPC #100000)/	Ignored State: closed (18)	Seq Index: 203	IP ID Seq: All zeros
+Host: 10.11.1.145 ()	Status: Up
+Host: 10.11.1.145 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)/, 3389/open/tcp//ssl|ms-wbt-server?///, 8080/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/	Ignored State: filtered (15)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 262	IP ID Seq: Incremental
+Host: 10.11.1.146 ()	Status: Up
+Host: 10.11.1.146 ()	Ports: 21/open/tcp//ftp//ProFTPD 1.3.3a/, 22/open/tcp//ssh//OpenSSH 5.5p1 Debian 6 (protocol 2.0)/	Ignored State: closed (18)	OS: Linux 2.6.32	Seq Index: 200	IP ID Seq: All zeros
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd 5.0/, 80/open/tcp//http//Microsoft IIS httpd 5.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 443/open/tcp//https?///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/, 8080/open/tcp//http//Oracle XML DB Enterprise Edition httpd 9.2.0.1.0 (Oracle9i Enterprise Edition Release)/	Ignored State: closed (12)	Seq Index: 264	IP ID Seq: Incremental
+Host: 10.11.1.209 ()	Status: Up
+Host: 10.11.1.209 ()	Ports: 22/open/tcp//ssh//SunSSH 1.1.5 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 1.3.41 ((Unix) mod_perl|1.31)/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 8080/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/	Ignored State: closed (16)	OS: Sun Solaris 10	Seq Index: 151	IP ID Seq: Incremental
+Host: 10.11.1.217 ()	Status: Up
+Host: 10.11.1.217 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 25/open/tcp//smtp?///, 80/open/tcp//http//Apache httpd 2.2.3/, 110/open/tcp//pop3?///, 111/open/tcp//rpcbind//2 (RPC #100000)/, 143/open/tcp//imap?///, 443/open/tcp//ssl|http//Apache httpd 2.2.3 ((CentOS))/, 993/open/tcp//imaps?///, 995/open/tcp//pop3s?///, 3306/open/tcp//mysql?///	Ignored State: closed (10)	Seq Index: 186	IP ID Seq: All zeros
+Host: 10.11.1.218 ()	Status: Up
+Host: 10.11.1.218 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: THINC)/	Ignored State: filtered (17)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 260	IP ID Seq: Incremental
+Host: 10.11.1.219 ()	Status: Up
+Host: 10.11.1.219 ()	Ports: 80/open/tcp//http//Apache httpd/	Ignored State: filtered (19)	Seq Index: 262	IP ID Seq: All zeros
+Host: 10.11.1.220 ()	Status: Up
+Host: 10.11.1.220 ()	Ports: 21/open/tcp//ftp//FileZilla ftpd 0.9.34 beta/, 53/open/tcp//domain//Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds (workgroup: THINC)/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: closed (14)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 263	IP ID Seq: Incremental
+Host: 10.11.1.221 ()	Status: Up
+Host: 10.11.1.221 ()	Ports: 53/open/tcp//domain//Microsoft DNS 6.0.6001 (17714650) (Windows Server 2008 SP1)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 3389/open/tcp//ssl|ms-wbt-server?///	Ignored State: filtered (17)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.14 ((Win32) DAV|2 mod_ssl|2.2.14 OpenSSL|0.9.8l mod_autoindex_color PHP|5.3.1 mod_apreq2-20090110|2.7.1 mod_perl|2.0.4 Perl|v5.10.1)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 443/open/tcp//ssl|http//Apache httpd 2.2.14 (DAV|2 mod_ssl|2.2.14 OpenSSL|0.9.8l mod_autoindex_color PHP|5.3.1 mod_apreq2-20090110|2.7.1 mod_perl|2.0.4 Perl|v5.10.1)/, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)/, 3306/open/tcp//mysql?///, 3389/open/tcp//ssl|ms-wbt-server?///	Ignored State: closed (13)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 263	IP ID Seq: Incremental
+Host: 10.11.1.226 ()	Status: Up
+Host: 10.11.1.226 ()	Ports: 21/open/tcp//ftp//GuildFTPd/	Seq Index: 265	IP ID Seq: Incremental
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd 5.0/, 25/open/tcp//smtp//Microsoft ESMTP 5.0.2195.5329/, 80/open/tcp//http//Microsoft IIS httpd 5.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 443/open/tcp//https?///	Ignored State: closed (14)	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.1.229 ()	Status: Up
+Host: 10.11.1.229 ()	Ports: 21/open/tcp//tcpwrapped///, 25/open/tcp//smtp//hMailServer smtpd/, 80/open/tcp//http//Microsoft IIS httpd 6.0/, 110/open/tcp//pop3//hMailServer pop3d/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Windows Server 2003 3790 Service Pack 1 netbios-ssn/, 143/open/tcp//imap//hMailServer imapd/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.1.230 ()	Status: Up
+Host: 10.11.1.230 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows 7 Ultimate N 7600 microsoft-ds (workgroup: WORKGROUP)/, 3389/open/tcp//ssl|ms-wbt-server?///	Ignored State: closed (16)	OS: Microsoft Windows 7 or Windows Server 2008 R2	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.1.234 ()	Status: Up
+Host: 10.11.1.234 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3p1 Debian 3ubuntu3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.14 ((Ubuntu))/	Ignored State: closed (18)	Seq Index: 202	IP ID Seq: All zeros
+Host: 10.11.1.237 ()	Status: Up
+Host: 10.11.1.237 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.0p1 Debian 4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.22 ((Debian))/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 443/open/tcp//ssl|http//Apache httpd 2.2.22 ((Debian))/	Ignored State: closed (16)	Seq Index: 261	IP ID Seq: All zeros
+Host: 10.11.1.238 ()	Status: Up
+Host: 10.11.1.238 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.0p1 Debian 4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.22 ((Debian))/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 443/open/tcp//ssl|http//Apache httpd 2.2.22 ((Debian))/	Ignored State: closed (16)	Seq Index: 259	IP ID Seq: All zeros
+Host: 10.11.1.247 ()	Status: Up
+Host: 10.11.1.247 ()	Ports: 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: filtered (19)	Seq Index: 260	IP ID Seq: Incremental
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.1p1 Debian 5ubuntu1 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.11 ((Ubuntu) PHP|5.2.6-3ubuntu4.4 with Suhosin-Patch)/	Ignored State: filtered (18)	Seq Index: 201	IP ID Seq: All zeros
+# Nmap done at Sun Dec 15 19:06:57 2019 -- 254 IP addresses (45 hosts up) scanned in 1431.91 seconds

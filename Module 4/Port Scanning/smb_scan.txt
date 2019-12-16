@@ -1,0 +1,30 @@
+# Nmap 7.70 scan initiated Sun Dec 15 19:37:49 2019 as: nmap -iL smb_ips.txt --script smb-os-discovery.nse -oG smb_scan.txt
+Host: 10.11.1.5 ()	Status: Up
+Host: 10.11.1.5 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows XP microsoft-ds/, 1025/open/tcp//NFS-or-IIS///, 3389/open/tcp//ms-wbt-server///	Ignored State: closed (995)
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 25/closed/tcp//smtp///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds//Samba smbd 3.0.33-0.17.el4/, 631/open/tcp//ipp///, 3306/open/tcp//mysql///	Ignored State: filtered (990)
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 110/open/tcp//pop3///, 139/open/tcp//netbios-ssn///, 143/open/tcp//imap///, 445/open/tcp//microsoft-ds//Samba smbd 3.0.26a/, 993/open/tcp//imaps///, 995/open/tcp//pop3s///	Ignored State: closed (992)
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows Server 2003 3790 Service Pack 1 microsoft-ds/, 1025/open/tcp//NFS-or-IIS///, 1433/open/tcp//ms-sql-s///, 3389/open/tcp//ms-wbt-server///	Ignored State: closed (993)
+Host: 10.11.1.73 ()	Status: Up
+Host: 10.11.1.73 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds/, 554/open/tcp//rtsp///, 1100/open/tcp//mctp///, 2869/open/tcp//icslap///, 3306/open/tcp//mysql///, 3389/open/tcp//ms-wbt-server///, 5357/open/tcp//wsdapi///, 5800/open/tcp//vnc-http///, 5900/open/tcp//vnc///, 8080/open/tcp//http-proxy///, 10243/open/tcp//unknown///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///, 49157/open/tcp//unknown///, 49159/open/tcp//unknown///	Ignored State: filtered (980)
+Host: 10.11.1.75 ()	Status: Up
+Host: 10.11.1.75 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds/, 554/open/tcp//rtsp///, 2869/open/tcp//icslap///, 3389/open/tcp//ms-wbt-server///, 5357/open/tcp//wsdapi///, 10243/open/tcp//unknown///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///, 49157/open/tcp//unknown///	Ignored State: filtered (986)
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 21/open/tcp//ftp///, 25/open/tcp//smtp///, 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/, 1025/open/tcp//NFS-or-IIS///, 1026/open/tcp//LSA-or-nterm///, 1029/open/tcp//ms-lsa///, 3372/open/tcp//msdtc///, 5800/open/tcp//vnc-http///, 5900/open/tcp//vnc///	Ignored State: closed (987)
+Host: 10.11.1.136 ()	Status: Up
+Host: 10.11.1.136 ()	Ports: 22/open/tcp//ssh///, 113/open/tcp//ident///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Samba smbd 3.0.24/	Ignored State: closed (996)
+Host: 10.11.1.145 ()	Status: Up
+Host: 10.11.1.145 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds/, 3389/open/tcp//ms-wbt-server///, 8080/open/tcp//http-proxy///	Ignored State: filtered (995)
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 21/open/tcp//ftp///, 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/, 1031/open/tcp//iad2///, 1035/open/tcp//multidropper///, 1036/open/tcp//nsstp///, 1041/open/tcp//danf-ak2///, 1521/open/tcp//oracle///, 2030/open/tcp//device2///, 2100/open/tcp//amiganetfs///, 3372/open/tcp//msdtc///, 3389/open/tcp//ms-wbt-server///, 4443/open/tcp//pharos///, 7778/open/tcp//interwise///, 8080/open/tcp//http-proxy///	Ignored State: closed (982)
+Host: 10.11.1.218 ()	Status: Up
+Host: 10.11.1.218 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds/	Ignored State: filtered (997)
+Host: 10.11.1.220 ()	Status: Up
+Host: 10.11.1.220 ()	Ports: 21/open/tcp//ftp///, 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds//Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds/, 464/open/tcp//kpasswd5///, 593/open/tcp//http-rpc-epmap///, 636/open/tcp//ldapssl///, 3268/open/tcp//globalcatLDAP///, 3269/open/tcp//globalcatLDAPssl///, 3389/open/tcp//ms-wbt-server///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49157/open/tcp//unknown///, 49158/open/tcp//unknown///, 49165/open/tcp//unknown///, 49176/open/tcp//unknown///	Ignored State: closed (979)
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds/, 3306/open/tcp//mysql///, 3389/open/tcp//ms-wbt-server///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///, 49157/open/tcp//unknown///	Ignored State: closed (987)
+Host: 10.11.1.230 ()	Status: Up
+Host: 10.11.1.230 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Ultimate N 7600 microsoft-ds/, 3389/open/tcp//ms-wbt-server///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///, 49157/open/tcp//unknown///	Ignored State: closed (990)
+# Nmap done at Sun Dec 15 19:39:05 2019 -- 14 IP addresses (14 hosts up) scanned in 75.53 seconds
